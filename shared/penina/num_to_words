@@ -1,0 +1,13 @@
+
+var num_to_words=function(number){
+    var a =["zero ","one ","two","three","four","five","six ","seven","eight","nine"]
+    var s =number.toString();
+    var length=s.length;
+    words="";
+    for(var i=0;i<length;i++){
+        words=words.concat (a[parseInt(s[i])])+" ";
+     
+    }
+    return words;
+}
+console.log(num_to_words(2005));
