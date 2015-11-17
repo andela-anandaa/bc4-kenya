@@ -1,3 +1,5 @@
+//takes number and converts to strings
+
 var words = ["Zero",
             "One",
             "Two",
